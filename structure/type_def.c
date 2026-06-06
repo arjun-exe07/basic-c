@@ -12,6 +12,7 @@ typedef struct Pokemon
 
 int main()
 {
+
   pokemon Charizard;
   Charizard.level = 5;
   Charizard.hp = 100;
