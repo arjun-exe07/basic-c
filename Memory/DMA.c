@@ -12,7 +12,7 @@ int main()
   if (arr == NULL)
   {
     printf("Memory allocation failed.");
-    return 0;
+    return 1;
   }
 
   free(arr);
