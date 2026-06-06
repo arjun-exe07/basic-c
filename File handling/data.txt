@@ -1,2 +1,2 @@
-Hi, I am xyz.
-I am currently learning C language.
+This is a new line.
+This is another line.
