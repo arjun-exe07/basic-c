@@ -14,6 +14,11 @@ int main()
     printf("Memory allocation failed.");
     return 1;
   }
+  printf("%d\n", *arr);
+  arr++;
+  printf("%d\n", *arr);
+  arr++;
+  printf("%d\n", *arr);
 
   free(arr);
 

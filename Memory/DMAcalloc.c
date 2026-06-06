@@ -15,6 +15,11 @@ int main()
     return 1;
   }
 
+  printf("%d\n", *arr);
+  arr++;
+  printf("%d\n", *arr);
+  arr++;
+  printf("%d\n", *arr);
   free(arr);
 
   return 0;
