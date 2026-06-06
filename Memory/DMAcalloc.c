@@ -15,11 +15,11 @@ int main()
     return 1;
   }
 
-  printf("%d\n", *arr);
+  printf("%d\n", *arr); // 0
   arr++;
-  printf("%d\n", *arr);
+  printf("%d\n", *arr); // 0
   arr++;
-  printf("%d\n", *arr);
+  printf("%d\n", *arr); // 0
   free(arr);
 
   return 0;

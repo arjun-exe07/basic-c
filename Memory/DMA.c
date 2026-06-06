@@ -14,11 +14,11 @@ int main()
     printf("Memory allocation failed.");
     return 1;
   }
-  printf("%d\n", *arr);
+  printf("%d\n", *arr); // garbage value
   arr++;
-  printf("%d\n", *arr);
+  printf("%d\n", *arr); // garbage value
   arr++;
-  printf("%d\n", *arr);
+  printf("%d\n", *arr); // garbage value
 
   free(arr);
 
