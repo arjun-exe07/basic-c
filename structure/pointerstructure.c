@@ -11,8 +11,11 @@ typedef struct Pokemon
 void change(pokemon *a)
 {
   (*a).attack = 90;
+  // a->attack = 90
   (*a).speed = 45;
+  // a-> speed = 45
   (*a).tier = "B";
+  // a -> tier = 'B'
 }
 
 void main()
