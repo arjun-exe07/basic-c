@@ -29,6 +29,7 @@ int main()
     printf("%d ", *arr);
     arr++;
   }
+  arr = p;
   free(arr);
 
   return 0;
